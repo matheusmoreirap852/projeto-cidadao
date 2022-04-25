@@ -1,0 +1,367 @@
+
+
+
+ /*------------------------------------------------CSS DOS INPUTS ----------------------------------------------------------------*/
+
+ .form-group{
+   margin-bottom: 2rem;
+ }
+  
+  input[type="text"]:focus  {
+    box-shadow: 0 0 0 0;
+    box-shadow: transparent;
+  
+  }
+
+  input[type="password"]:focus {
+    box-shadow: 0 0 0 0;
+  }
+  
+ 
+  
+  input[type="email"]:focus {
+    box-shadow: 0 0 0 0;
+  }
+  
+
+ 
+ /*-------------------------------------------------------------------------------------------------------------------------------------*/ 
+ 
+ /*------------------------------------------------CSS DAS LOGOS E ICONES ----------------------------------------------------------------*/
+ #icone_adm {
+  display: block;
+  margin-top: -2%;
+  
+  height: auto;
+  width:160px;
+
+  
+}
+
+
+
+#logo_adm {
+    
+  display: flex;
+  margin-left: 10%;
+  height: auto;
+  margin-top: -4%;
+  margin-bottom: -5%;
+  width: 125px;
+  
+}
+ /*----------------------------------------------------------------------------------------------------------------------------*/
+ 
+ /*------------------------------------------------CSS DAS BARRAS DE NAVEGAÇAO ----------------------------------------------------------------*/
+ 
+ .nav_all{
+    
+  padding: 0;
+  height: auto;
+  width: 100%;
+  margin-top: 0;
+  background-color:white;
+  color: #061C99;
+  
+
+}
+
+.RODAPE{
+  
+  
+
+  width: 100%;
+  padding: 0.1px;
+  
+    justify-content: center;
+
+  background-color:white;
+  align-items: center;
+  text-align: center;
+  color: #061C99;
+  
+
+
+}
+ 
+
+.navlink_all{
+
+ 
+  justify-content: flex-end;
+  
+
+  
+ }
+ .alignItems{
+  padding-left: 0%;
+   margin-left:-40%;
+   }
+
+
+
+ .col-warp{
+   flex-flow: column wrap;
+ }
+
+ /*---------------------------------------------------------------------------------------------------------------------------*/
+ 
+
+ /*------------------------------------------------CSS DOS BUTTONS----------------------------------------------------------------*/
+ 
+ .btn{
+  border-color: #061C99 ;
+  border-radius: 20px;
+  border: #061C99 solid 1px;
+  padding-left:20px;
+  padding-right:20px;
+  margin-bottom: -3%;
+  margin-left:0%;
+  background-color:white ;
+  color:  #061C99;
+}
+.btn:hover{
+  background-color: white;
+  color: #061C99;
+}
+#tol_adm{
+  color: #061C99;
+  background-color:transparent;
+  
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+ 
+ 
+
+
+/*------------------------------------------------CSS DAS LABEL ----------------------------------------------------------------*/
+ 
+
+ label{
+    color: #061C99;
+  }
+
+/*-------------------------------------------------------- ----------------------------------------------------------------*/
+ 
+
+/*------------------------------------------------CSS DAS CONTEINER ----------------------------------------------------------------*/
+ 
+.cadastro_layout{
+    
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+    -ms-grid-row-align: center;
+    
+    -ms-grid-column-align: center;
+    justify-content: center;
+    width: 100%;
+  
+  
+  }
+
+  .hz1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+  
+/*------------------------------------------------CSS Da Pagina ----------------------------------------------------------------*/
+#container_adm{
+  padding-left: 0;
+  max-width: 100%;
+  padding-right: 0;
+  align-items: center;
+  width: 100%;
+  
+  min-height: 100%;
+  
+  
+}
+.lay{
+  padding-left: 0;
+  max-width: 100%;
+  padding-right: 0;
+  align-items: center;
+  width: 100%;
+}
+.formdp{
+
+  background-color: white;
+  border-radius: 10%;
+
+  padding: 5%;
+  display: block;
+width: 100%;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------CSS DE RESPONSIVIDADE DE ICONE---------------------------------------------------------------------*/
+@media screen and (max-width: 500px) {
+
+  
+  
+  .alignItems{
+    padding-left: 0%;
+     margin-left:45%;
+     }
+
+ 
+}
+
+@media screen and (max-width: 900px) and (min-width:500px) {
+
+  
+  .alignItems{
+    padding-left: 0%;
+     margin-left:45%;
+     }
+
+ 
+}
+
+@media screen and (max-height:1439px) and (min-height:1362px) {
+
+  #container_adm{
+   
+    height: 1440px;
+    max-width: 1440px;
+   
+    
+  }
+ .cadastro_layout{
+  max-width: auto;
+  width: auto;
+  margin-block-start: -15%;
+  margin-block-end: 30%;
+
+ }
+  .formdp{
+    
+    width: 1024px;
+    margin-block-end: 0%;
+    margin-block-start: 100%;
+  
+  }
+  
+  
+  
+}
+
+@media screen and (max-height:1440px) and (min-height:1440px) {
+
+  #container_adm{
+   
+    height: 1800px;
+    max-width: 1440px;
+   
+    
+  }
+ 
+  
+  .formdp{
+    
+    width: 1024px;
+    margin-block-end: 0%;
+    margin-block-start: 100%;
+  
+  }
+  
+  .cadastro_layout{
+    max-width: auto;
+    width: auto;
+    margin-block-start: -15%;
+    margin-block-end: 32.5%;
+  }
+  
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+  
+/* ----------------------------------------------------------center ----------------------------------------------------------------- */
+.flex-center{
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.wid{
+  width: 100%;
+}
+.form-group3{
+margin-bottom:1rem;
+}
+
+#icone_MEM {
+  display: block;
+  margin-top: -2%;
+  
+  height: auto;
+  width:130px;
+
+  
+}
+
+.sap{
+ border: none;
+ border-radius: 20%;
+ 
+}
+.sap:hover{
+
+  background-color: skyblue;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#icon_bemvindo{
+  margin-block-start: 1%;
+  margin-block-end: 5%;
+  width: 70%;
+}
+
+.re{
+text-align: center;
+justify-content: center;
+}
+
+.mm{
+  margin-block-start: 25%;
+  margin-block-end: 25%;
+}
+
+.btn_acessar{
+ background-color:#fff200;
+ color: black;
+ border: 1px solid #aaa;
+ width: 60%;
+ margin-block-start: 7%;
+ margin-block-end: 4%;
+}
+
+.btn_cadastre{
+  background-color:whitesmoke;
+  color: black;
+  border: 1px solid #aaa;
+  width: 60%;
+
+ } 
+ 
+
+
+  
+
+  
